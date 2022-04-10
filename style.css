@@ -9,6 +9,12 @@ body {
   padding: 0px;
 }
 
+h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-bottom: 0px;
+}
+
 .navbar {
   background:white;
   border-bottom: 2px solid black;
@@ -24,6 +30,11 @@ body {
   height: 48px;
   margin: 6px;
   margin-left: 12px;
+  transition: transform .7s ease-in-out;
+}
+
+.nav-logo:hover {
+  transform: rotate(360deg);
 }
 
 .nav-links {
@@ -152,7 +163,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  border: 8px outset peru;
   padding: 36px;
   margin: 48px;
   max-width: 700px;
@@ -167,6 +178,7 @@ body {
   color: peru;
   font-weight: bold;
   font-size: larger;
+  text-shadow: 1px 1px black;
 
 }
 .contact-info {
